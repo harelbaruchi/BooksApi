@@ -1,16 +1,27 @@
 <bookstore>
-  <book>
+  <book category="children" cover="">
     <isbn>9051234567897</isbn>
-    <title lang="en">Harry Potter</title>
-    <author>J K. Rowling</author>
+    <title lang="en">Harry Potter 2</title>
+    <author>JKRowling</author>
     <year>2005</year>
     <price>29.99</price>
   </book>
-  <book>
-    <isbn>9043127323207</isbn>
-    <title lang="en">Learning XML</title>
-    <author>Erik T. Ray</author>
+  <book category="web" cover="">
+    <isbn>9031234567897</isbn>
+    <title lang="en">XQuery Kick Start</title>
+    <author>James McGovern</author>
+    <author>Per Bothner</author>
+    <author>Kurt Cagle</author>
+    <author>James Linn</author>
+    <author>Vaidyanathan Nagarajan</author>
     <year>2003</year>
-    <price>39.95</price>
+    <price>49.99</price>
+  </book>
+  <book category="Thriller" cover="paperback">
+    <isbn>9051234561234</isbn>
+    <title lang="en">the Shinning</title>
+    <author>Stephan King</author>
+    <year>1986</year>
+    <price>39.99</price>
   </book>
 </bookstore>

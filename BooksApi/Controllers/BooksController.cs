@@ -123,6 +123,8 @@ public class BooksController : ControllerBase
         {
             var bookNode = xmlDoc.CreateElement("book");
             rootNode.AppendChild(bookNode);
+            bookNode.SetAttribute("category", book.Category);
+            bookNode.SetAttribute("cover", book.Cover);
 
 
             var isbnNode = xmlDoc.CreateElement("isbn");
